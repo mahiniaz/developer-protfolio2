@@ -1,37 +1,101 @@
 body{
+    margin: 0;
     font-family: 'Roboto Slab', serif;
     color: rgb(97, 96, 96);
 }
-p{
-    color: rgb(148, 147, 147);
+.flex-container{
+    display: flex;
+    margin-bottom: 50px;
 }
-h1{
+.first-section{
+    margin-bottom: 50px;
+}
+.first-section h1{
     font-size: 50px;
+    font-weight: 700;
 }
 .orange-color{
     color: orange;
 }
-section{
-    display: flex;
-    margin-bottom: 150;
+.first-section .flex-container img{
+    width:80%;
 }
 .half-width{
-    width: 40%;
-    padding-left: 7%;
-    padding-top: 5%;
+    width: 50%;
+    margin: 80px;
 }
-.half-width img{
-    width: 90%;
+.half-width p:{
+width: 70%;
+padding-bottom: 10px;
+text-align: justify;
 }
+
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
-    padding: 10px 20px;
+    padding: 15px 23px;
     color: white;
     font-weight: 700;
-    border-radius: 20px;
+    border-radius: 25px;
+}
+.first-section .half-width img{
+    width: 80%
+}
+.about-me .half-width img{
+    width: 50%;
 }
 .about-me{
     background-image: url(images/shapes/7.png);
-    padding: 5%
+    background-repeat: no-repeat;
 }
+.about-me .half-width img{
+    margin-bottom: 80px;
+}
+.recipi-div{
+    width:33.33%;
+    box-shadow: 5px 6px 40px rgb(204, 195, 195);
+    margin: 40px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.recipies-img{
+    display: block;
+    text-align: center;
+}
+.recipi-div img{
+    width:100%
+}
+.recipi-div p{
+    text-align: justify;
+}
+.my-recipies{
+    margin-bottom: 50px;
+}
+.recipies-h2{
+    text-align: center;
+}
+.recipies-titel{
+    font-weight: blod;
+}
+.social-section {
+    text-align: center;
+    box-shadow: 5px 5px 40px rgb(218, 213, 213);
+    margin: 40px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+  }
+  .social-div{
+    width: 33.33%;
+    padding: 10px;
+  }
+    
+  .footer {
+    color: wheat;
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+  }
+  .grey-text {
+    color: #5b5b5b;
+  }
